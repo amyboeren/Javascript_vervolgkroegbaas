@@ -32,7 +32,7 @@ if (driverStatus=="bob") {
 else {
   console.log("Je mag helaas niet meer rijden");
 }//Let op: dubbel ==!
-if (firstName == "Sara" || "Sarah" || "Bram"|| "Abraham") {
+if (firstName === "Sara" || firstName === "Sarah" || firstName === "Bram") {
   console.log("Je ontvangt een gratis biertje!");
 } else {
   console.log("Welkom");
